@@ -46,7 +46,7 @@ bool isConnenctedComponentIterative(T Node, unordered_map<T, vector<T>> &Graph,
   VisitedSet.insert(Node);
   stack<T> Stack;
   Stack.push(Node);
-  int Key;
+  T Key;
   while (!Stack.empty()) {
     Key = Stack.top();
     Stack.pop();
