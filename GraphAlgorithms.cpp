@@ -82,7 +82,7 @@ int connectedComponentsCount(unordered_map<T, vector<T>> &Graph) {
   return Count;
 }
 
-template <typename T> void printGraph(T &Graph) {
+template <typename T> void printGraph(unordered_map<T, vector<T>> &Graph) {
   cout << "Input Graph:\n";
   for (auto x : Graph) {
     cout << x.first << ": [";
